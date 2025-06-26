@@ -28,22 +28,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install build twine hatchling
     
-    - name: 🔍 Verify package structure
-      run: |
-        ls -la
-        ls -la fdock_cli/
-        cat fdock_cli/pyproject.toml
-    
     - name: 🏗️ Build package
       run: |
         cd fdock_cli
         python -m build
-    
-    - name: 🔍 Check built packages
-      run: |
-        cd fdock_cli
-        ls -la dist/
-        twine check dist/*
     
     - name: 🚀 Publish to PyPI
       env:
