@@ -153,3 +153,5 @@ Thumbs.db
 
 # Documentation locale (ne pas commiter)
 GITHUB_ACTIONS.md 
+
+.gitignore

@@ -34,10 +34,10 @@ def main():
     fdock_dir = os.path.join(home, '.fdock')
     
     if not os.path.exists(fdock_dir):
-        print("🔧 Première exécution détectée - Installation des scripts...")
+        print("🔧   Installation des scripts...")
         try:
             install_scripts()
-            print("🎉 Installation terminée ! Redémarrez votre terminal.")
+            print("🎉 Installation terminée ! ")
             return 0
         except Exception as e:
             print(f"❌ Erreur lors de l'installation : {e}")
