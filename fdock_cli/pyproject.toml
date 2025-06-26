@@ -4,11 +4,11 @@ build-backend = "hatchling.build"
 
 [project]
 name = "fdock_cli"
-version = "2.1.4"
+version = "2.1.5    "
 description = "Un outil CLI puissant pour initialiser et gérer vos projets Python avec style !"
 readme = "README.md"
 license = "MIT"
-requires-python = ">=3.7"
+requires-python = ">=3.10"
 authors = [
     {name = "fdock", email = "fdock@example.com"},
 ]
@@ -19,9 +19,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
@@ -31,10 +28,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/fdock/fdock_cli"
-Repository = "https://github.com/fdock/fdock_cli"
-Issues = "https://github.com/fdock/fdock_cli/issues"
-Documentation = "https://github.com/fdock/fdock_cli#readme"
+Homepage = "https://github.com/NathanQuantum/fdock"
+Documentation = "https://github.com/NathanQuantum/fdock#readme"
 
 [project.scripts]
 fdock = "fdock_cli.cli:main"
