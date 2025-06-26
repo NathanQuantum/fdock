@@ -149,4 +149,7 @@ Thumbs.db
 
 # Build artifacts
 *.whl
-*.tar.gz 
+*.tar.gz
+
+# Documentation locale (ne pas commiter)
+GITHUB_ACTIONS.md 
