@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "fdock_cli"
-version = "2.1.7"
+version = "2.5.6"
 description = "Un outil CLI puissant pour initialiser et gérer vos projets Python avec style !"
 readme = "README.md"
 license = "MIT"
